@@ -90,6 +90,7 @@ function App() {
             <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">
               Quiz Master
             </h1>
+            <p className="text-gray-600">MADE WITH ❤️ BY MUBARAK RAJI</p>
             <div className="flex items-center gap-4">
               <span className="text-gray-600">Welcome, {user.name}</span>
               {view === 'home' && (
